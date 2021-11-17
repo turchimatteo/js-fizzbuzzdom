@@ -13,11 +13,13 @@ for(let i = 0; i <= 100; i++) {
 
     let evenOrOdd;
     if( i % 3 === 0 ) {
-        evenOrOdd = 'multiplo di 3'
+        evenOrOdd = 'Fizz'
     } else if ( i % 5 === 0 ) {
-        evenOrOdd = 'multiplo di 5'
+        evenOrOdd = 'Buzz'
+    } else if (( i % 3 === 0 ) && ( i % 5 === 0 )) {
+        evenOrOdd = 'FizzBuzz'
     } else {
-        evenOrOdd = 'non multiplo'
+        evenOrOdd = 'Non multiplo'
     }
 
     console.log(evenOrOdd);
