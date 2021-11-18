@@ -1,4 +1,4 @@
-const boxesContainer = document.querySelector('.container');
+/* const boxesContainer = document.querySelector('.container');
 
 for(let i = 0; i <= 100; i++) {
     const newBox = `
@@ -6,9 +6,9 @@ for(let i = 0; i <= 100; i++) {
     `;
 
     boxesContainer.innerHTML += newBox;
-}
+} */
 
-for(let i = 0; i <= 100; i++) {
+for(let i = 1; i <= 100; i++) {
     console.log(i);
 
     let evenOrOdd;
